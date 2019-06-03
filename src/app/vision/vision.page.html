@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>vision</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-button expand="block" color="success" (click)="captureAndUpload()">Process picture</ion-button>
+
+  <ion-col *ngIf="labelAnnotations != null && labelAnnotations.length > 0">
+      <h3>Vision API Results</h3>
+      <!-- List of Text Items -->
+      <ion-list>
+        <ion-item *ngFor="let annotation of labelAnnotations">
+          <ion-label>
+            <h2>Description: {{annotation.description}}</h2>
+            <h3>Score: {{annotation.score*100}}%</h3>
+          </ion-label>
+        </ion-item>
+    </ion-list>
+
+  </ion-col>
+</ion-content>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "910321658815",
+    "firebase_url": "https://test-login-55354.firebaseio.com",
+    "project_id": "test-login-55354",
+    "storage_bucket": "test-login-55354.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910321658815:android:a359d89bc9dab8dc",
+        "android_client_info": {
+          "package_name": "io.ionic.login.sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910321658815-6308o4bkckejmpot527sln3t8tncul2i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5VBR80A4SilbVS68m0vBJ4pMpdIuY6mM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910321658815-6308o4bkckejmpot527sln3t8tncul2i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

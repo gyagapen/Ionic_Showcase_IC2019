@@ -1,0 +1,24 @@
+<ion-content class="login-content" padding>
+  <ion-row>
+    <ion-col>
+      <h1 class="logo">IONIC LOGIN TEST APP</h1>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <ion-button class="log-in-button" color="danger" expand="block" (click)="doGoogleLogin()">
+        LOG IN WITH GOOGLE
+      </ion-button>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <ion-button class="log-in-button" color="primary" expand="block" (click)="doFbLogin()">
+        LOG IN WITH FACEBOOK
+      </ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button expand="block" color="success" (click)="goToVisionPage()">Test Vision API</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-content>
